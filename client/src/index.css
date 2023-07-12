@@ -1,0 +1,78 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing :border-box;
+}
+
+.content{
+  min-height:68vh;
+}
+
+.navbar{
+  background-color: rgba(230, 229, 148, 0.826) !important;
+}
+
+.nav-link{
+  margin-right: 20px;
+} 
+
+.navbar-brand {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.login-form{
+  padding: 50px;
+  background-color: #ffffff9f;
+  
+}
+
+.login-form .label{
+  color: #fff !important;
+}
+
+.register-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.login-page{
+  min-height: 100vh;
+  display: flex;
+  background-image: linear-gradient(rgba(128, 0, 128, 0.715),rgba(0, 0, 255, 0.899));
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+
+.center-button {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+
+.filters{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  box-shadow: 0 0 3px gray;
+}
+
+.anticon svg{
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.active-icon{
+  color:black;
+}
+
+.inactive-icon{
+  color: gray;
+}
